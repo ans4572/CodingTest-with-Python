@@ -4,7 +4,7 @@ def solution(progresses, speeds):
     days = []
 
     for p in range(len(progresses)):
-        days.append(math.ceil((100 - progresses[p]) / speeds[p]))
+        days.append(math.ceil((100 - progresses[p]) / speeds[p]))  # 각 기능마다 걸리는 일수 계산
 
     answer = []
     stack = []

@@ -1,5 +1,5 @@
 def solution(routes):
-    routes.sort(key=lambda x:x[1])
+    routes.sort(key=lambda x:x[1])  # 끝나는 지점을 기준으로 정렬
     camera = -30001
     answer = 0
 

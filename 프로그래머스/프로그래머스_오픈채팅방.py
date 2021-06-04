@@ -8,7 +8,7 @@ def solution(record):
         else:
             act, id, name = r.split()
         if act == "Enter":
-            user[id] = name
+            user[id] = name            # user id가 변경되었을 수도 있으므로
             chating.append((1, id))
         elif act == "Leave":
             chating.append((-1, id))
